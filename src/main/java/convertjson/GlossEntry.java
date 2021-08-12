@@ -1,3 +1,5 @@
+package convertjson;
+
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
@@ -13,7 +15,7 @@ public class GlossEntry {
     private String acronym;
     @JsonProperty("Abbrev")
     private String abbrev;
-    @JsonProperty("GlossDef")
+    @JsonProperty("convertjson.GlossDef")
     private GlossDef glossDef;
     @JsonProperty("GlossSee")
     private String glossSee;

@@ -1,3 +1,5 @@
+package convertjson;
+
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
@@ -6,6 +8,6 @@ public class Glossary {
 
 
     private String title;
-    @JsonProperty("GlossDiv")
+    @JsonProperty("convertjson.GlossDiv")
     private GlossDiv glossDiv;
 }

@@ -1,10 +1,12 @@
+package convertjson;
+
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 @Data
 public class GlossList {
 
-    @JsonProperty("GlossEntry")
+    @JsonProperty("convertjson.GlossEntry")
     GlossEntry glossEntry;
 
 }

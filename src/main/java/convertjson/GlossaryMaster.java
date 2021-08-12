@@ -1,3 +1,5 @@
+package convertjson;
+
 import lombok.Data;
 
 @Data
